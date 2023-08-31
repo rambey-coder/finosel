@@ -1,0 +1,93 @@
+.general_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    background: #fff;
+    padding: 25px 40px;
+    width: 100%;
+    max-width: 650px;
+    filter: drop-shadow(1px 1px 6px rgba(241, 241, 241, 0.619));
+
+    .logo_cont {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 0;
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      color: #273b4a;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .account_type {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1.5rem;
+        margin: 4rem 0;
+
+        .account {
+            width: 45%;
+            background-color: #fff;
+            border: 1px solid #D9D9D9;
+            border-radius: 0px 11px 11px 11px;
+            padding: 20px;
+            cursor: pointer;
+
+            h3 {
+                margin-top: 1rem;
+                color: #273b4a;
+                font-weight: 700;
+            }
+
+            p {
+                margin-top: 6px;
+                color: #8C8C8C;
+                font-size: 13px;
+            }
+        }
+
+        .account_active {
+            border-color: #D6AA1B;
+        }
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        border-radius: 0px 11px 11px 11px;
+        background: #D6AA1B;
+        color: #fff;
+        font-size: 16px;
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        padding: 20px 10px;
+        margin-bottom: 10px;
+    }
+
+    .txt {
+        text-align: center;
+        color: #273b4a;
+        font-size: 13px;
+        font-weight: 700;
+
+        span {
+            color: #D6AA1B;
+            cursor: pointer;
+        }
+    }
+  }
+}
